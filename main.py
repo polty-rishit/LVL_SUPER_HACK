@@ -25,36 +25,36 @@ def run_flow(message: str) -> dict:
 
 def main():
     # Page Layout and Styling
-    st.set_page_config(page_title="Social Media Analysis", layout="wide")
+    # st.set_page_config(page_title="Social Media Analysis", layout="wide")
     
     # Custom Styling for UI
-    st.markdown(
-        """
-        <style>
-        body {
-            background-color: #f3e5f5;
-        }
-        .stButton>button {
-            background-color: #673ab7;
-            color: white;
-            border-radius: 10px;
-            padding: 8px 15px;
-        }
-        .stTextArea>div>textarea {
-            border: 2px solid #512da8;
-            border-radius: 8px;
-        }
-        .stMarkdown {
-            color: #311b92;
-            font-weight: bold;
-        }
-        .stSpinner>div>div>div>div {
-            color: #4527a0;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+    # st.markdown(
+    #     """
+    #     <style>
+    #     body {
+    #         background-color: #f3e5f5;
+    #     }
+    #     .stButton>button {
+    #         background-color: #673ab7;
+    #         color: white;
+    #         border-radius: 10px;
+    #         padding: 8px 15px;
+    #     }
+    #     .stTextArea>div>textarea {
+    #         border: 2px solid #512da8;
+    #         border-radius: 8px;
+    #     }
+    #     .stMarkdown {
+    #         color: #311b92;
+    #         font-weight: bold;
+    #     }
+    #     .stSpinner>div>div>div>div {
+    #         color: #4527a0;
+    #     }
+    #     </style>
+    #     """,
+    #     unsafe_allow_html=True,
+    # )
     
     st.title("📊 Social Analytics")
     st.header("🔍 Model in Use: LLama-70b")
