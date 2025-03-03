@@ -13,6 +13,7 @@ APPLICATION_TOKEN = os.environ.get("APP_TOKEN")
 ENDPOINT = FLOW_ID
 
 
+
 def run_flow(message: str,) -> dict:
     
     api_url = f"{BASE_API_URL}/lf/{LANGFLOW_ID}/api/v1/run/{ENDPOINT}"
